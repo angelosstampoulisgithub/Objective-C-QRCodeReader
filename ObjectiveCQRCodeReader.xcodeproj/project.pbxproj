@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D623EE5B2CC2620D00F7D9EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D623EE5A2CC2620D00F7D9EE /* AppDelegate.m */; };
+		D623EE5E2CC2620D00F7D9EE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D623EE5D2CC2620D00F7D9EE /* SceneDelegate.m */; };
+		D623EE612CC2620D00F7D9EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D623EE602CC2620D00F7D9EE /* ViewController.m */; };
+		D623EE642CC2620D00F7D9EE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D623EE632CC2620D00F7D9EE /* Base */; };
+		D623EE662CC2620E00F7D9EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D623EE652CC2620E00F7D9EE /* Assets.xcassets */; };
+		D623EE692CC2620E00F7D9EE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D623EE682CC2620E00F7D9EE /* Base */; };
+		D623EE6C2CC2620E00F7D9EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D623EE6B2CC2620E00F7D9EE /* main.m */; };
+		D623EE762CC2620F00F7D9EE /* ObjectiveCQRCodeReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D623EE752CC2620F00F7D9EE /* ObjectiveCQRCodeReaderTests.m */; };
+		D623EE802CC2620F00F7D9EE /* ObjectiveCQRCodeReaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D623EE7F2CC2620F00F7D9EE /* ObjectiveCQRCodeReaderUITests.m */; };
+		D623EE822CC2620F00F7D9EE /* ObjectiveCQRCodeReaderUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D623EE812CC2620F00F7D9EE /* ObjectiveCQRCodeReaderUITestsLaunchTests.m */; };
+		D623EE902CC2703A00F7D9EE /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D623EE8F2CC2703A00F7D9EE /* Helper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D623EE722CC2620F00F7D9EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D623EE4E2CC2620D00F7D9EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D623EE552CC2620D00F7D9EE;
+			remoteInfo = ObjectiveCQRCodeReader;
+		};
+		D623EE7C2CC2620F00F7D9EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D623EE4E2CC2620D00F7D9EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D623EE552CC2620D00F7D9EE;
+			remoteInfo = ObjectiveCQRCodeReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D623EE562CC2620D00F7D9EE /* ObjectiveCQRCodeReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectiveCQRCodeReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D623EE592CC2620D00F7D9EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D623EE5A2CC2620D00F7D9EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D623EE5C2CC2620D00F7D9EE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D623EE5D2CC2620D00F7D9EE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D623EE5F2CC2620D00F7D9EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D623EE602CC2620D00F7D9EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D623EE632CC2620D00F7D9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D623EE652CC2620E00F7D9EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D623EE682CC2620E00F7D9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D623EE6A2CC2620E00F7D9EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D623EE6B2CC2620E00F7D9EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D623EE712CC2620F00F7D9EE /* ObjectiveCQRCodeReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveCQRCodeReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D623EE752CC2620F00F7D9EE /* ObjectiveCQRCodeReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCQRCodeReaderTests.m; sourceTree = "<group>"; };
+		D623EE7B2CC2620F00F7D9EE /* ObjectiveCQRCodeReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveCQRCodeReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D623EE7F2CC2620F00F7D9EE /* ObjectiveCQRCodeReaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCQRCodeReaderUITests.m; sourceTree = "<group>"; };
+		D623EE812CC2620F00F7D9EE /* ObjectiveCQRCodeReaderUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCQRCodeReaderUITestsLaunchTests.m; sourceTree = "<group>"; };
+		D623EE8E2CC2703A00F7D9EE /* Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		D623EE8F2CC2703A00F7D9EE /* Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D623EE532CC2620D00F7D9EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D623EE6E2CC2620F00F7D9EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D623EE782CC2620F00F7D9EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D623EE4D2CC2620D00F7D9EE = {
+			isa = PBXGroup;
+			children = (
+				D623EE582CC2620D00F7D9EE /* ObjectiveCQRCodeReader */,
+				D623EE742CC2620F00F7D9EE /* ObjectiveCQRCodeReaderTests */,
+				D623EE7E2CC2620F00F7D9EE /* ObjectiveCQRCodeReaderUITests */,
+				D623EE572CC2620D00F7D9EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D623EE572CC2620D00F7D9EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D623EE562CC2620D00F7D9EE /* ObjectiveCQRCodeReader.app */,
+				D623EE712CC2620F00F7D9EE /* ObjectiveCQRCodeReaderTests.xctest */,
+				D623EE7B2CC2620F00F7D9EE /* ObjectiveCQRCodeReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D623EE582CC2620D00F7D9EE /* ObjectiveCQRCodeReader */ = {
+			isa = PBXGroup;
+			children = (
+				D623EE592CC2620D00F7D9EE /* AppDelegate.h */,
+				D623EE5A2CC2620D00F7D9EE /* AppDelegate.m */,
+				D623EE5C2CC2620D00F7D9EE /* SceneDelegate.h */,
+				D623EE5D2CC2620D00F7D9EE /* SceneDelegate.m */,
+				D623EE5F2CC2620D00F7D9EE /* ViewController.h */,
+				D623EE602CC2620D00F7D9EE /* ViewController.m */,
+				D623EE622CC2620D00F7D9EE /* Main.storyboard */,
+				D623EE652CC2620E00F7D9EE /* Assets.xcassets */,
+				D623EE672CC2620E00F7D9EE /* LaunchScreen.storyboard */,
+				D623EE6A2CC2620E00F7D9EE /* Info.plist */,
+				D623EE6B2CC2620E00F7D9EE /* main.m */,
+				D623EE8E2CC2703A00F7D9EE /* Helper.h */,
+				D623EE8F2CC2703A00F7D9EE /* Helper.m */,
+			);
+			path = ObjectiveCQRCodeReader;
+			sourceTree = "<group>";
+		};
+		D623EE742CC2620F00F7D9EE /* ObjectiveCQRCodeReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				D623EE752CC2620F00F7D9EE /* ObjectiveCQRCodeReaderTests.m */,
+			);
+			path = ObjectiveCQRCodeReaderTests;
+			sourceTree = "<group>";
+		};
+		D623EE7E2CC2620F00F7D9EE /* ObjectiveCQRCodeReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D623EE7F2CC2620F00F7D9EE /* ObjectiveCQRCodeReaderUITests.m */,
+				D623EE812CC2620F00F7D9EE /* ObjectiveCQRCodeReaderUITestsLaunchTests.m */,
+			);
+			path = ObjectiveCQRCodeReaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D623EE552CC2620D00F7D9EE /* ObjectiveCQRCodeReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D623EE852CC2620F00F7D9EE /* Build configuration list for PBXNativeTarget "ObjectiveCQRCodeReader" */;
+			buildPhases = (
+				D623EE522CC2620D00F7D9EE /* Sources */,
+				D623EE532CC2620D00F7D9EE /* Frameworks */,
+				D623EE542CC2620D00F7D9EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectiveCQRCodeReader;
+			productName = ObjectiveCQRCodeReader;
+			productReference = D623EE562CC2620D00F7D9EE /* ObjectiveCQRCodeReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D623EE702CC2620F00F7D9EE /* ObjectiveCQRCodeReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D623EE882CC2620F00F7D9EE /* Build configuration list for PBXNativeTarget "ObjectiveCQRCodeReaderTests" */;
+			buildPhases = (
+				D623EE6D2CC2620F00F7D9EE /* Sources */,
+				D623EE6E2CC2620F00F7D9EE /* Frameworks */,
+				D623EE6F2CC2620F00F7D9EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D623EE732CC2620F00F7D9EE /* PBXTargetDependency */,
+			);
+			name = ObjectiveCQRCodeReaderTests;
+			productName = ObjectiveCQRCodeReaderTests;
+			productReference = D623EE712CC2620F00F7D9EE /* ObjectiveCQRCodeReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D623EE7A2CC2620F00F7D9EE /* ObjectiveCQRCodeReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D623EE8B2CC2620F00F7D9EE /* Build configuration list for PBXNativeTarget "ObjectiveCQRCodeReaderUITests" */;
+			buildPhases = (
+				D623EE772CC2620F00F7D9EE /* Sources */,
+				D623EE782CC2620F00F7D9EE /* Frameworks */,
+				D623EE792CC2620F00F7D9EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D623EE7D2CC2620F00F7D9EE /* PBXTargetDependency */,
+			);
+			name = ObjectiveCQRCodeReaderUITests;
+			productName = ObjectiveCQRCodeReaderUITests;
+			productReference = D623EE7B2CC2620F00F7D9EE /* ObjectiveCQRCodeReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D623EE4E2CC2620D00F7D9EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D623EE552CC2620D00F7D9EE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D623EE702CC2620F00F7D9EE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D623EE552CC2620D00F7D9EE;
+					};
+					D623EE7A2CC2620F00F7D9EE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D623EE552CC2620D00F7D9EE;
+					};
+				};
+			};
+			buildConfigurationList = D623EE512CC2620D00F7D9EE /* Build configuration list for PBXProject "ObjectiveCQRCodeReader" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D623EE4D2CC2620D00F7D9EE;
+			productRefGroup = D623EE572CC2620D00F7D9EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D623EE552CC2620D00F7D9EE /* ObjectiveCQRCodeReader */,
+				D623EE702CC2620F00F7D9EE /* ObjectiveCQRCodeReaderTests */,
+				D623EE7A2CC2620F00F7D9EE /* ObjectiveCQRCodeReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D623EE542CC2620D00F7D9EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D623EE662CC2620E00F7D9EE /* Assets.xcassets in Resources */,
+				D623EE692CC2620E00F7D9EE /* Base in Resources */,
+				D623EE642CC2620D00F7D9EE /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D623EE6F2CC2620F00F7D9EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D623EE792CC2620F00F7D9EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D623EE522CC2620D00F7D9EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D623EE612CC2620D00F7D9EE /* ViewController.m in Sources */,
+				D623EE5B2CC2620D00F7D9EE /* AppDelegate.m in Sources */,
+				D623EE6C2CC2620E00F7D9EE /* main.m in Sources */,
+				D623EE5E2CC2620D00F7D9EE /* SceneDelegate.m in Sources */,
+				D623EE902CC2703A00F7D9EE /* Helper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D623EE6D2CC2620F00F7D9EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D623EE762CC2620F00F7D9EE /* ObjectiveCQRCodeReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D623EE772CC2620F00F7D9EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D623EE802CC2620F00F7D9EE /* ObjectiveCQRCodeReaderUITests.m in Sources */,
+				D623EE822CC2620F00F7D9EE /* ObjectiveCQRCodeReaderUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D623EE732CC2620F00F7D9EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D623EE552CC2620D00F7D9EE /* ObjectiveCQRCodeReader */;
+			targetProxy = D623EE722CC2620F00F7D9EE /* PBXContainerItemProxy */;
+		};
+		D623EE7D2CC2620F00F7D9EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D623EE552CC2620D00F7D9EE /* ObjectiveCQRCodeReader */;
+			targetProxy = D623EE7C2CC2620F00F7D9EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D623EE622CC2620D00F7D9EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D623EE632CC2620D00F7D9EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D623EE672CC2620E00F7D9EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D623EE682CC2620E00F7D9EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D623EE832CC2620F00F7D9EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D623EE842CC2620F00F7D9EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D623EE862CC2620F00F7D9EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ObjectiveCQRCodeReader/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow the app use camera";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "$(MARKETING_VERSION)";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.ObjectiveCQRCodeReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D623EE872CC2620F00F7D9EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ObjectiveCQRCodeReader/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow the app use camera";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "$(MARKETING_VERSION)";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.ObjectiveCQRCodeReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D623EE892CC2620F00F7D9EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.ObjectiveCQRCodeReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectiveCQRCodeReader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ObjectiveCQRCodeReader";
+			};
+			name = Debug;
+		};
+		D623EE8A2CC2620F00F7D9EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.ObjectiveCQRCodeReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectiveCQRCodeReader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ObjectiveCQRCodeReader";
+			};
+			name = Release;
+		};
+		D623EE8C2CC2620F00F7D9EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.ObjectiveCQRCodeReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ObjectiveCQRCodeReader;
+			};
+			name = Debug;
+		};
+		D623EE8D2CC2620F00F7D9EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.ObjectiveCQRCodeReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ObjectiveCQRCodeReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D623EE512CC2620D00F7D9EE /* Build configuration list for PBXProject "ObjectiveCQRCodeReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D623EE832CC2620F00F7D9EE /* Debug */,
+				D623EE842CC2620F00F7D9EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D623EE852CC2620F00F7D9EE /* Build configuration list for PBXNativeTarget "ObjectiveCQRCodeReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D623EE862CC2620F00F7D9EE /* Debug */,
+				D623EE872CC2620F00F7D9EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D623EE882CC2620F00F7D9EE /* Build configuration list for PBXNativeTarget "ObjectiveCQRCodeReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D623EE892CC2620F00F7D9EE /* Debug */,
+				D623EE8A2CC2620F00F7D9EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D623EE8B2CC2620F00F7D9EE /* Build configuration list for PBXNativeTarget "ObjectiveCQRCodeReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D623EE8C2CC2620F00F7D9EE /* Debug */,
+				D623EE8D2CC2620F00F7D9EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D623EE4E2CC2620D00F7D9EE /* Project object */;
+}
